@@ -1,0 +1,19 @@
+.first-p, .second-p, .third-p {
+    background-color: pink;
+    font-family: 'DejaVu Sans', 'sans-serif';
+}
+
+#first-div {
+    color: blue;
+    font-size: 36px;
+}
+
+.second-p {
+    font-size: 24px;
+}
+
+#second-div {
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 24px;
+}
