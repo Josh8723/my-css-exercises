@@ -5,16 +5,42 @@ body {
 img {
   width: 100px;
   height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .heading {
   display: flex;
   justify-content: center;
+  margin-bottom: 32px;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 52px;
+  justify-content: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 200px;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  /* border: 3px red solid; */
 }
 
 /* do not edit this footer */
